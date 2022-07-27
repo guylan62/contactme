@@ -101,7 +101,6 @@ ul {
   color: #f3f3f3;
   background-image: url('./img/background.png');
   height: 100vh;
-  width: 100vh;
 }
 
 .landingLinks h1 {
@@ -109,7 +108,7 @@ ul {
 }
 
 .landingLinks > img {
-  width: 40%;
+  width: auto;
   margin-top: 20px;
 }
 
@@ -250,7 +249,7 @@ ul {
   transform: scale(1.075);
 }
 
-@media screen and  (min-width: 600px) {
+/* @media screen and  (min-width: 600px) {
   .landingLinks > img {
     width: 35%;
   }
@@ -282,4 +281,4 @@ ul {
   }
 
 }
-  
+   */
