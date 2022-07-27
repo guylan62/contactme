@@ -108,7 +108,7 @@ ul {
 }
 
 .landingLinks > img {
-  width: 100%;
+  width: 50%;
 }
 
 .firstList {
@@ -133,7 +133,7 @@ ul {
 .firstList li img {
   object-fit: contain;
   max-width: 30px;
-  margin: 10px;
+  margin: 20px;
 }
 
 .firstList > li > a {
@@ -247,3 +247,32 @@ ul {
 .secondList svg:hover {
   transform: scale(1.075);
 }
+
+@media screen and  (min-width: 600px) {
+  .landingLinks > img {
+    width: 40%;
+  }
+
+}
+
+@media screen and  (min-width: 900px) {
+  .landingLinks > img {
+    width: 25%;
+  }
+
+}
+
+@media screen and  (min-width: 1200px) {
+  .landingLinks > img {
+    width: 20%;
+  }
+
+}
+
+@media screen and  (min-width: 2000px) {
+  .landingLinks > img {
+    width: 17%;
+  }
+
+}
+  
