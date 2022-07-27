@@ -92,7 +92,6 @@ ul {
 }
 
 .landingLinks {
-  min-height: 100vh;
   font-family: 'Inter', sans-serif;
   display: flex;
   justify-content: space-around;
@@ -101,6 +100,7 @@ ul {
   background-color: #4a5252;
   color: #f3f3f3;
   background-image: url('./img/background.png');
+  height: 100vh;
 }
 
 .landingLinks h1 {
@@ -108,8 +108,7 @@ ul {
 }
 
 .landingLinks > img {
-  width: 750px;
-  padding: 5px;
+  width: 100%;
 }
 
 .firstList {
@@ -130,7 +129,7 @@ ul {
 .firstList > li:hover {
   transform: scale(1.02);
 }
-
+                                        
 .firstList li img {
   object-fit: contain;
   max-width: 30px;
