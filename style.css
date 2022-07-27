@@ -100,7 +100,7 @@ ul {
   background-color: #4a5252;
   color: #f3f3f3;
   background-image: url('./img/background.png');
-  height: 110vh;
+  height: 100vh;
 }
 
 .landingLinks h1 {
@@ -108,8 +108,8 @@ ul {
 }
 
 .landingLinks > img {
-  width: 50%;
-  margin-top: 30px;
+  width: 45%;
+  margin-top: 20px;
 }
 
 .firstList {
