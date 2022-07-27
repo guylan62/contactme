@@ -250,14 +250,14 @@ ul {
   transform: scale(1.075);
 }
 
-/* @media screen and  (min-width: 600px) {
+@media screen and  (min-width: 600px) {
   .landingLinks > img {
     width: 35%;
   }
 
 }
 
-@media screen and  (min-width: 900px) {
+/* @media screen and  (min-width: 900px) {
   .landingLinks > img {
     width: 20%;
   }
@@ -281,5 +281,5 @@ ul {
     width: 12%;
   }
 
-}
-   */
+} */
+  
