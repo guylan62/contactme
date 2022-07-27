@@ -133,7 +133,7 @@ ul {
 .firstList li img {
   object-fit: contain;
   max-width: 30px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .firstList > li > a {
@@ -258,6 +258,11 @@ ul {
 @media screen and  (min-width: 900px) {
   .landingLinks > img {
     width: 20%;
+  }
+  .firstList li img {
+    object-fit: contain;
+    max-width: 30px;
+    margin: 20px;
   }
 
 }
